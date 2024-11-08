@@ -20,16 +20,14 @@ The code has been rigorously tested and verified to be fully compatible with Ope
 
 # How to set the model
 1- Download the source code.
-
-2- To enable the momentum-source of turbine forces via the actuator-disk model without rotation (ADM-NR), copy the folder _ADM_NR_diskBased_ to your work directory, and compile the new library with the following command:
-  
-`wmake`
  
-3- To enable the new turbulence model, copy the folder _OF_kOmegaSSTWindFarm_ to your library directory, and compile the turbulence model by the following command: 
+2- Copy the folder _OF_kOmegaSSTWindFarm_ to your library directory, and compile the turbulence model by the following command: 
 
 `wmake`
 
-4- Copy the folder _testCase_ to your run directory and execute it.
+3- Copy the folder _testCase_ to your run directory and execute.
+
+4- To learn more about the momentum and turbulent kinetic energy sources linked to the turbine forces, see this repository: https://github.com/AUfluids/k-epsilon-Sk.
 
 # Evaluation of $k-\omega\text{SST-PDA}$ model's performance
 In our latest [publication](https://doi.org/10.48550/arXiv.2405.04906), we apply the optimized $k−\omega\text{SST-PDA}$ model to several wind-farm cases with distinct layouts and conduct a comparative analysis focusing on the obtained quantities such as normalized streamwise velocity deficit, turbulence intensity, and power output. We examine the success rate of the augmented model in predicting the secondary flows in the wake region. Our comparisons and validations demonstrate the superior performance of the progressive data-augmented model over the standard version in all cases considered.
