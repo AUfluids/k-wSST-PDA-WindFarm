@@ -19,10 +19,10 @@ simulationType  RAS;
 RAS
 {
     RASModel        kOmegaSSTWindFarm;
-    Separation      1;
-    A0I             1.05;
-    SecondaryFlow   1;
-    C0I             1.4;
+    Separation      1;                //Correcting Omega-transport equation.
+    A0I             1.05;             //Corrective C_Pw in the original paper
+    SecondaryFlow   1;                //Enabling secondary flows.
+    C0I             1.4;              //Corrective C_SF in the original paper
     turbulence      on;
     printCoeffs     on;
 }
