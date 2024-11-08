@@ -33,6 +33,7 @@ The code has been rigorously tested and verified to be fully compatible with Ope
 In our latest [publication](https://doi.org/10.48550/arXiv.2405.04906), we apply the optimized $k−\omega\text{SST-PDA}$ model to several wind-farm cases with distinct layouts and conduct a comparative analysis focusing on the obtained quantities such as normalized streamwise velocity deficit, turbulence intensity, and power output. We examine the success rate of the augmented model in predicting the secondary flows in the wake region. Our comparisons and validations demonstrate the superior performance of the progressive data-augmented model over the standard version in all cases considered.
 
 <img src="https://github.com/AUfluids/k-wSST-PDA-WindFarm/blob/main/testCase/Performance.png" width="900" height="450" alt="Normalized power of turbines in three validation cases">
+
   
 # How to cite
 Please, cite this library as:
