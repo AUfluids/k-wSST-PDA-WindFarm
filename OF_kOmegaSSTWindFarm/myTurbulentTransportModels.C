@@ -28,10 +28,6 @@ License
 #include "turbulentTransportModels.H"
 
 
-
-#include "turbulentTransportModels.H"
-
-
 #include "kOmegaSSTWindFarm.H"
 makeRASModel(kOmegaSSTWindFarm);
 
