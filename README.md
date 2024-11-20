@@ -2,7 +2,6 @@
 
 <!--  [![Compatibility: OFver](https://img.shields.io/badge/Compatible_with-OpenFOAM.v2112-lightblue.svg)]()  -->
 [![Paper: Energy](https://img.shields.io/badge/Reference-Paper-red.svg)](https://doi.org/10.1016/j.energy.2024.133762)
-[![Paper: Author](https://img.shields.io/badge/Author-green.svg)](https://sites.google.com/view/zehtabiyan/home)
 
 <!-- [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)   -->
 
