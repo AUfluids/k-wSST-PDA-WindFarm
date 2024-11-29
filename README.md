@@ -38,6 +38,7 @@ Please, cite this library as:
      title = {A progressive data-augmented RANS model for enhanced wind-farm simulations},
      author = {Ali Amarloo and Navid Zehtabiyan-Rezaie and Mahdi Abkar},
      journal = {Energy},
+     volume = {313},
      pages = {133762},
      year = {2024},
      doi = {https://doi.org/10.1016/j.energy.2024.133762},
